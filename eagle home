@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Eagle Academy</h1>
+        <p>Your Gateway to Success in UPSC and GPSC Exams</p>
+    </header>
+
+    <nav>
+        <a href="#english-language">English Language</a>
+        <a href="#gujarati-language">Gujarati Language</a>
+        <a href="#current-affairs">Current Affairs</a>
+        <a href="#prelims">Prelims</a>
+        <a href="#mains">Mains</a>
+        <a href="#announcements">Announcements</a>
+    </nav>
+
+    <section id="english-language">
+        <h2>English Language</h2>
+        <p>Enhance your English skills with our comprehensive resources, tailored for UPSC and GPSC aspirants.</p>
+    </section>
+
+    <section id="gujarati-language">
+        <h2>Gujarati Language</h2>
+        <p>Master the Gujarati language with expert guidance and materials, essential for success in regional exams.</p>
+    </section>
+
+    <section id="current-affairs">
+        <h2>Current Affairs</h2>
+        <p>Stay updated with the latest current affairs, crucial for both prelims and mains examinations.</p>
+    </section>
+
+    <section id="prelims">
+        <h2>Prelims</h2>
+        <p>Prepare effectively for the preliminary exams with our strategic study plans and resources.</p>
+    </section>
+
+    <section id="mains">
+        <h2>Mains</h2>
+        <p>Dive deep into advanced topics and refine your knowledge for the mains exams with our detailed guides.</p>
+    </section>
+
+    <section id="announcements">
+        <h2>Announcements</h2>
+        <p>Stay informed with the latest announcements, important dates, and updates from Eagle Academy.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Eagle Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
